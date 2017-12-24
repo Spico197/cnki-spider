@@ -2,7 +2,13 @@
 
 This is a cnki-spider based on requests and beautifulsoup python-libs.
 It aims crawling a certain magazine, GZU Journal(Natural Science), for instance.
-It does not provide a magazine free-download url, but a list of paper information. 
+
+![The Final Data](pics/data.png)
+
+## Notice
+
+- It does not provide a magazine free-download url, but a list of paper information. 
+- We do not take the _Call of Papers_ and the _Conferences News_ included 
 
 ## Contact
 
@@ -11,8 +17,7 @@ You can contribute your codes to the `dev` branch. Welcome to do such a program 
 
 ## TODO
 
-- Year and Issue crawler
-- paper detailed information
+- Data mining and analysis
 - PySide/PyQt GUI program
 - Developing by using Scrapy and spider managers, and distributed crawlers
  
